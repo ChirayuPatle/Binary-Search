@@ -1,4 +1,4 @@
-public class BinarySearch {
+public class BinarySearchAscendingOrder {
     public static void main(String[] args) {
     int[] arr = {1,8,12,15,20,24,36,42,58};
     int target = 20;
