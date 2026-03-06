@@ -29,3 +29,8 @@ public class BinarySearchAscendingOrder {
     }
 }
 
+/*
+ Steps:
+ 1. set start, end and middle element.
+ 2. adjust start, mid, end element
+ */
