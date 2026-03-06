@@ -1,6 +1,6 @@
 package Questions;
 
-public class CeilingOfNumber {
+public class FloorOfNumber {
     public static void main(String[] args) {
         int[] arr = {1,8,12,15,20,24,36,42,58};
         int target = 21;
@@ -9,13 +9,8 @@ public class CeilingOfNumber {
     }
 
     static  int binarysearch(int[] arr, int target){
-
         int start = 0;
         int end = arr.length -1;
-
-        if(target > arr[arr.length -1]){
-            return -1;
-        }
 
         while (start <= end) {
             int mid = start + (end - start) / 2;
@@ -29,6 +24,6 @@ public class CeilingOfNumber {
                 return mid;
             }
         }
-        return arr[start];
+        return arr[end];
     }
 }
